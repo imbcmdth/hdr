@@ -1,0 +1,27 @@
+{
+  "name": "hdr",
+  "description": "Utilities for reading HDR image files",
+  "version": "1.0.0",
+  "homepage": "https://github.com/imbcmdth/hdr",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imbcmdth/hdr.git"
+  },
+  "author": {
+    "name": "Jon-Carlos Rivera",
+    "email": "jon.carlos.rivera@gmail.com",
+    "url": "http://jon-carlos.com"
+  },
+  "keywords": [
+    "high dynamic range",
+    "hdr"
+  ],
+  "main": "./lib/hdr",
+  "devDependencies": {
+    "mocha": "1.8.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "license": "MIT"
+}
