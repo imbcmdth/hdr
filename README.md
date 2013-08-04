@@ -1,6 +1,6 @@
 # HDR
 
-An HDR image parsing library for node.js.
+A minimal HDR image (Radiance .pic format) parsing library for node.js.
 
 ## Contents
 
@@ -50,6 +50,8 @@ hdrloader.on('load', function() {
 file.pipe(hdrloader);
 
 ```
+
+This library does the minimum required to read HDR files. It is up to the consumer of the data to convert between XYZ and RGB, if desired, and to apply any corrections specified by `EXPOSURE`, `PRIMARIES`, or `COLORCORR` headers.
 
 ## Versions
 
