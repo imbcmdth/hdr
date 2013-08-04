@@ -1,6 +1,6 @@
 # HDR
 
-A minimal HDR image (Radiance .pic format) parsing library for node.js.
+A minimal streaming HDR image (ie. Radiance .pic format) library for node.js.
 
 ## Contents
 
