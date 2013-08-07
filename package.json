@@ -1,7 +1,7 @@
 {
   "name": "hdr",
   "description": "Module for reading HDR image files",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "homepage": "https://github.com/imbcmdth/hdr",
   "repository": {
     "type": "git",
