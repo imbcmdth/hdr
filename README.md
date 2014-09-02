@@ -1,6 +1,6 @@
 # HDR
 
-A minimal streaming HDR image (ie. Radiance .pic format) library for node.js.
+A very minimal streaming HDR image (ie. Radiance .pic format) library for node.js. Always outputs XYZ color space regardless of the format of the HDR file.
 
 ## Contents
 
@@ -43,7 +43,7 @@ hdrloader.on('load', function() {
 	//-- this.width    - image width in pixels
 	//-- this.height   - image height in pixels
 	//-- this.data     - Float32Array of pixel colors with length = width*height*3
-	//--                 in non-planar [R, G, B, R, G, B, ...] pixel layout
+	//--                 in non-planar [X, Y, Z, X, Y, Z, ...] pixel layout
 });
 
 //-- Start piping in image data from filesystem/http request/ect.:
@@ -55,7 +55,10 @@ This library does the minimum required to read HDR files. It is up to the consum
 
 ## Versions
 
-* [v0.5.0](https://github.com/imbcmdth/hdr/archive/v1.0.0.zip) Initial public release
+* [v0.6.0](https://github.com/imbcmdth/hdr/archive/v0.6.0.zip) Output is now always in XYZ color format (doing the conversion automatically if the HDR file is in RGB format) and broke out color handling and pixel format into their own repositories/packages
+* [v0.5.1](https://github.com/imbcmdth/hdr/archive/v0.5.1.zip) Made internal functions more easily extensible
+* [v0.5.0](https://github.com/imbcmdth/hdr/archive/v0.5.0.zip) Initial public release
+
 
 ## License - MIT
 

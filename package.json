@@ -1,7 +1,7 @@
 {
   "name": "hdr",
   "description": "Module for reading HDR image files",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "homepage": "https://github.com/imbcmdth/hdr",
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
     "xyze"
   ],
   "main": "./lib/hdr",
+  "dependencies": {
+    "mmme-encoding": "0.1.0",
+    "xyz-utils": "0.1.0"
+  },
   "devDependencies": {
     "mocha": "1.8.1"
   },
