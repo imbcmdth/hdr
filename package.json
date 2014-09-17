@@ -23,8 +23,8 @@
   ],
   "main": "./lib/hdr",
   "dependencies": {
-    "mmme-encoding": "0.1.0",
-    "xyz-utils": "0.1.0"
+    "mmme-encoding": "0.5.1",
+    "xyz-utils": "0.5.2"
   },
   "devDependencies": {
     "mocha": "1.8.1"
